@@ -49,6 +49,10 @@ public class LoginServlet extends HttpServlet {
 	        if (rsCheck.next()) {
 	            // User already exists, redirect to login.jsp
 	        	session.setAttribute("phone_no", rsCheck.getString("phone_no"));
+	        	
+	        	// Middleware
+//	        	response.sendRedirect("fetchRecords");
+	        	
 	        	dispatcher = request.getRequestDispatcher("index.jsp");
 			} else {
 				request.setAttribute("status", "loginError");

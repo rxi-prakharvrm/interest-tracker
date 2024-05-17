@@ -85,7 +85,7 @@ public class AddEntry extends HttpServlet {
 	            request.setAttribute("toBePaid", toBePaid);
 	            
 	            // Forward the request to entry.jsp
-	            dispatcher = request.getRequestDispatcher("entry.jsp");
+	            dispatcher = request.getRequestDispatcher("index.jsp");
 	            dispatcher.forward(request, response);
 	        } else {
 	            // Handle the case when insertion fails

@@ -33,15 +33,15 @@
 		</div>
 		<div class="form-group">
 			<label for="total-cost">Total Cost</label>
-			<input type="number" id="total-cost" name="total-cost" placeholder="Enter total cost...">
+			<input type="number" min="0" id="total-cost" name="total-cost" placeholder="Enter total cost...">
 		</div>
 		<div class="form-group">
 			<label for="paid-amount">Paid Amount</label>
-			<input type="number" id="paid-amount" name="paid-amount" placeholder="Enter amount paid...">
+			<input type="number" min="0" id="paid-amount" name="paid-amount" placeholder="Enter amount paid...">
 		</div>
 		<div class="form-group">
 			<label for="interest-rate">Interest Rate</label>
-			<input type="number" id="interest-rate" name="interest-rate" placeholder="Enter the interest rate...">
+			<input type="number" min="0" id="interest-rate" name="interest-rate" placeholder="Enter the interest rate...">
 		</div>
 		<div class="form-group">
 			<label for="interest-type">Interest Type</label>
@@ -52,7 +52,7 @@
 		</div>
 		<div class="form-group">
 			<label for="time-duration">Time Duration</label>
-			<input type="number" id="time-duration" name="time-duration" placeholder="Enter time duration...">
+			<input type="number" min="0" id="time-duration" name="time-duration" placeholder="Enter time duration...">
 		</div>
 		<div class="form-group">
 			<input type="submit" id="submit" name="submit" value="Submit">
