@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Login Page</title>
+<title>LOGIN PAGE</title>
 </head>
 <body>
 <input type="hidden" id="status" value="<%= request.getAttribute("status")%>">

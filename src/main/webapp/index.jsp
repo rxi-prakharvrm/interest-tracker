@@ -55,7 +55,7 @@
 	<header>
 		<div class="page-header">
 			<h1 class="shop-name">Shop Name</h1>
-			<a href="logout.jsp">Logout</a>
+			<a href="logout">Logout</a>
 		</div>
 	</header>
 	
@@ -72,7 +72,5 @@
 	</aside>
 	
 	<section class="main" id="recordsContainer"></section>
-	
-	<a href="logout">Logout</a>
 </body>
 </html>
